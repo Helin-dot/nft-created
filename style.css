@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d192b;
+    font-family: 'Outfit', sans-serif;
+}
+
+ 
+  
+.card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 350px;
+    background-color: #14253d;
+    display: flex;
+    flex-direction: column;
+    color: #2f415b;
+    font-size: 18px;
+}
+
+
+.card-header {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 25px;
+    transition: color .2s ease-in;
+    cursor: pointer;
+}
+
+
+.card-header:hover{
+    color: #00fff7;
+
+}
+
+
+.card-content {
+    color: #8bacda;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.money-time-continer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.blue-text {
+    color:  #00fff7;
+    font-size: 14px;
+    padding-left: 7px;
+}
+
+.eth-info {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.time-info {
+    display: flex;
+    align-items: center;
+    color: #8bacda;
+
+}
+
+.money-time-continer img{
+    width: 20px;
+}
+
+.money-time-continer p {
+    padding-left: 7px;
+
+}
+
+
+.line {
+   height: 1px;
+   width: 97%;
+   background-color: #8bacda;
+   margin: 2rem auto 1rem auto;
+   opacity: .3;
+  
+
+}
+
+.avatar-continer{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.avatar-continer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+
+.avatar-continer p {
+    padding-left: 14px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #8bacda;
+}
+
+
+
+.white-text{
+    color: #ffffff;
+    transition: color .2s ease-in;
+    cursor: pointer;
+}
+
+
+
+.white-text:hover{
+    color: #00fff7;
+}
+
+
